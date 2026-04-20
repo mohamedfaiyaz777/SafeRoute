@@ -1,0 +1,14 @@
+{
+  "name": "SafeRoute — Perambur Safety Navigator",
+  "description": "Mobile-first women's safety routing tool with real-time risk scoring and SOS triggers.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "AI Vision Scanning",
+    "Smart Routing",
+    "Emergency SOS"
+  ]
+}

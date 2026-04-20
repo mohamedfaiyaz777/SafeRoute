@@ -1,0 +1,216 @@
+{
+  "safe_zones": [
+    {
+      "id": "sz_tnagar",
+      "name": "T. Nagar Commercial Hub",
+      "type": "cctv_hub",
+      "label": "CCTV Hub",
+      "latlng": [13.0405, 80.2337],
+      "description": "High foot traffic, major shopping district.",
+      "cctv_cameras": 25,
+      "contact": "100"
+    },
+    {
+      "id": "sz_annanagar",
+      "name": "Anna Nagar Roundtana",
+      "type": "cctv_hub",
+      "label": "CCTV Hub",
+      "latlng": [13.0850, 80.2100],
+      "description": "Premium residential, excellent lighting.",
+      "cctv_cameras": 18,
+      "contact": "100"
+    },
+    {
+      "id": "sz_adyar",
+      "name": "Adyar Checkpost",
+      "type": "police_station",
+      "label": "Police Checkpoint",
+      "latlng": [13.0033, 80.2555],
+      "description": "24/7 transport hub and well-secured.",
+      "cctv_cameras": 14,
+      "contact": "100"
+    },
+    {
+      "id": "sz_mylapore",
+      "name": "Mylapore Hub",
+      "type": "cctv_hub",
+      "label": "CCTV Hub",
+      "latlng": [13.0335, 80.2675],
+      "description": "Always active, heavily monitored.",
+      "cctv_cameras": 22,
+      "contact": "100"
+    },
+    {
+      "id": "sz_besant",
+      "name": "Besant Nagar Beach Promenade",
+      "type": "cctv_hub",
+      "label": "CCTV Hub",
+      "latlng": [13.0002, 80.2736],
+      "description": "Beach patrol active until 11 PM. Well-lit.",
+      "cctv_cameras": 20,
+      "contact": "100"
+    },
+    {
+      "id": "sz_egmore_awps",
+      "name": "Egmore All-Women Police Station",
+      "type": "police_station",
+      "label": "Police Station",
+      "latlng": [13.0785, 80.2585],
+      "description": "Dedicated women's safety hub.",
+      "cctv_cameras": 16,
+      "contact": "044-23452324"
+    },
+    {
+      "id": "sz_nungambakkam_awps",
+      "name": "Nungambakkam AWPS",
+      "type": "police_station",
+      "label": "Police Station",
+      "latlng": [13.0620, 80.2445],
+      "description": "Central security installation.",
+      "cctv_cameras": 15,
+      "contact": "044-23452325"
+    },
+    {
+      "id": "sz_flower_awps",
+      "name": "Flower Bazaar AWPS",
+      "type": "police_station",
+      "label": "Police Station",
+      "latlng": [13.0880, 80.2785],
+      "description": "High security perimeter.",
+      "cctv_cameras": 18,
+      "contact": "044-23452326"
+    },
+    {
+      "id": "sz_mount_road",
+      "name": "Mount Road CCTV Hub",
+      "type": "cctv_hub",
+      "label": "CCTV Hub",
+      "latlng": [13.0645, 80.2635],
+      "description": "Major arterial road, dense camera coverage.",
+      "cctv_cameras": 30,
+      "contact": "100"
+    },
+    {
+      "id": "sz_marina_booth",
+      "name": "Marina Beach Police Booth",
+      "type": "police_station",
+      "label": "Police Station",
+      "latlng": [13.0531, 80.2818],
+      "description": "Police outpost on the main beach road.",
+      "cctv_cameras": 10,
+      "contact": "100"
+    }
+  ],
+  "danger_zones": [
+    {
+      "id": "dz_kasimedu",
+      "name": "Kasimedu Isolated Shores",
+      "type": "high_crime_density",
+      "label": "Crime Hotspot",
+      "latlng": [13.1205, 80.2955],
+      "description": "Unlit industrial fishing areas.",
+      "base_risk": 9,
+      "radius_meters": 200,
+      "avoid_after": "18:30"
+    },
+    {
+      "id": "dz_vyasarpadi",
+      "name": "Vyasarpadi Underpass",
+      "type": "high_crime_density",
+      "label": "Crime Hotspot",
+      "latlng": [13.1170, 80.2550],
+      "description": "Dark corridor under infrastructure.",
+      "base_risk": 8,
+      "radius_meters": 150,
+      "avoid_after": "19:00"
+    },
+    {
+      "id": "dz_korukkupet",
+      "name": "Korukkupet Industrial Stretch",
+      "type": "high_crime_density",
+      "label": "Crime Hotspot",
+      "latlng": [13.1130, 80.2770],
+      "description": "Zero civilian foot traffic.",
+      "base_risk": 9,
+      "radius_meters": 250,
+      "avoid_after": "18:00"
+    },
+    {
+      "id": "dz_pulianthope",
+      "name": "Pulianthope Unlit Stretch",
+      "type": "high_crime_density",
+      "label": "Crime Hotspot",
+      "latlng": [13.0985, 80.2580],
+      "description": "Frequent reports of petty crime.",
+      "base_risk": 7,
+      "radius_meters": 200,
+      "avoid_after": "20:00"
+    },
+    {
+      "id": "dz_omr_isolated",
+      "name": "OMR Isolated IT Stretch",
+      "type": "high_crime_density",
+      "label": "Crime Hotspot",
+      "latlng": [12.9200, 80.2300],
+      "description": "Empty service lanes after midnight.",
+      "base_risk": 7,
+      "radius_meters": 300,
+      "avoid_after": "23:00"
+    },
+    {
+      "id": "dz_royapuram",
+      "name": "Royapuram Rail Tracks",
+      "type": "high_crime_density",
+      "label": "Crime Hotspot",
+      "latlng": [13.1118, 80.2925],
+      "description": "Isolated tracks, poorly lit.",
+      "base_risk": 8,
+      "radius_meters": 150,
+      "avoid_after": "18:30"
+    },
+    {
+      "id": "dz_pattalam",
+      "name": "Pattalam Market Back-Alleys",
+      "type": "high_crime_density",
+      "label": "Crime Hotspot",
+      "latlng": [13.0945, 80.2625],
+      "description": "Crowded day, isolated and unlit at night.",
+      "base_risk": 7,
+      "radius_meters": 100,
+      "avoid_after": "21:00"
+    },
+    {
+      "id": "dz_otteri",
+      "name": "Otteri Nullah Path",
+      "type": "high_crime_density",
+      "label": "Crime Hotspot",
+      "latlng": [13.0905, 80.2450],
+      "description": "Open drainage sides, no streetlights.",
+      "base_risk": 8,
+      "radius_meters": 200,
+      "avoid_after": "18:30"
+    },
+    {
+      "id": "dz_basin_bridge",
+      "name": "Basin Bridge Shadow Area",
+      "type": "high_crime_density",
+      "label": "Crime Hotspot",
+      "latlng": [13.0965, 80.2745],
+      "description": "Areas under the central bridge with low visibility.",
+      "base_risk": 8,
+      "radius_meters": 180,
+      "avoid_after": "19:00"
+    },
+    {
+      "id": "dz_north_chennai",
+      "name": "Ennore Industrial Stretch",
+      "type": "high_crime_density",
+      "label": "Crime Hotspot",
+      "latlng": [13.2030, 80.3200],
+      "description": "Heavy vehicle traffic, isolated from residential safety.",
+      "base_risk": 9,
+      "radius_meters": 500,
+      "avoid_after": "18:00"
+    }
+  ]
+}
