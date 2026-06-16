@@ -1,5 +1,5 @@
 <div align="center">
-
+ 
 # 🛡️ SafeRoute
 ### Premium Mobile-First Women's Safety Navigator
 **Real-time risk scoring | AI Vision Scanning | Emergency SOS**
@@ -64,3 +64,4 @@ Distributed under the **Apache License 2.0**. See `LICENSE` for more information
 <div align="center">
 Built with ❤️ for a safer tomorrow.
 </div>
+ 
